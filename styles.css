@@ -1,0 +1,62 @@
+/* CSS by R.J. Sibon
+ * Note: this CSS follows BEM methodology for the naming of HTML/CSS classes.
+ * See for more info: https://css-tricks.com/bem-101/
+**/
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.card {
+  width: 300px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px #aaa;
+  margin: 20px;
+  padding: 15px;
+}
+
+@media (max-width: 370px) {
+  .card {
+    margin: -5px;
+    padding: 5px;
+  }
+}
+
+.card__title {
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+.card__image {
+  width: 100%;
+  border: solid 1px #ccc;
+  margin-bottom: 10px;
+}
+
+.card__copy {
+  border: solid 1px #ccc;
+  padding: 0 10px;
+  background: #f0fff0;
+}
+
+.card__funfact {
+  font-style: italic;
+}
+
+.card__list {
+  list-style: none;
+  text-indent: -40px;
+  font-style: italic;
+}
+
+.card__listitem-label {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.card__generalinfo {
+  text-align: justify;
+}
