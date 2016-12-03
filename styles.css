@@ -11,10 +11,10 @@
 
 .card {
   width: 300px;
+  margin: 20px;
+  box-shadow: 0 5px 5px #aaa;
   border: solid 1px #ccc;
   border-radius: 5px;
-  box-shadow: 0px 5px 5px #aaa;
-  margin: 20px;
   padding: 15px;
 }
 
@@ -32,8 +32,8 @@
 
 .card__image {
   width: 100%;
-  border: solid 1px #ccc;
   margin-bottom: 10px;
+  border: solid 1px #ccc;
 }
 
 .card__copy {
